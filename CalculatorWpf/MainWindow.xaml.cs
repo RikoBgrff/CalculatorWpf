@@ -36,15 +36,15 @@ namespace MyCalculatorv1
             {
                 try
                 {
-                    result();
+                    Result();
                 }
-                catch (Exception exc)
+                catch (Exception)
                 {
                     DisplayerTxtBx.Text = "Error!";
                 }
             }
 
-            private void result()
+            private void Result()
             {
                 String op;
                 int iOp = 0;
